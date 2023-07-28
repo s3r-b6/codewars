@@ -19,8 +19,7 @@ fn main() {
 }
 
 fn get_solutions() -> Vec<Solution> {
-    let file =
-        File::open(r"/home/ser/Desktop/codewars/codewars_parser/src/solutions.html").unwrap();
+    let file = File::open(r"/home/ser/Desktop/codewars/codewars_parser/src/sol.html").unwrap();
     let mut buffer = String::new();
     let mut buf_reader = BufReader::new(file);
 

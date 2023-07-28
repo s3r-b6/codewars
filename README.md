@@ -5,3 +5,5 @@ writes it to files after formatting them.
 
 Kind of messy but I put it together in a few hours and it does work, maybe I 
 will make this better sometime... but I honestly just want to have it working. 
+
+NOTE: Biggest number is actually the oldest solution, not the newest.
