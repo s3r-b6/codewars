@@ -67,7 +67,7 @@ fn parse_tags(current_lang: &String, current_title: &String, str: &String) -> So
 
     let title = regex
         .replace_all(current_title, "")
-        .replace("<a", "")
+        .replace("</a", "")
         .trim()
         .to_string();
 
